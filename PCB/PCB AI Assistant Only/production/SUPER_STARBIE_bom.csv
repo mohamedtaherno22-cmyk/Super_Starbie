@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+LM_386,PinHeader_1x04_P2.54mm_Vertical,1,~,
+M1,DIP-6_W7.62mm_Socket,1,~,
+MCU1,ESP32-C3-SuperMini,1,esp32_C3_SuperMini,
