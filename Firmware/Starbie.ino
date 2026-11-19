@@ -1,8 +1,15 @@
 /*
   Starbie: a tiny motion-controlled digital pet
-  
-  Features For Later: AI integrated Functions
 
+  This is intentionally one file. Open this .ino file in Arduino IDE, edit
+  the BEGINNER SETTINGS section, and upload it to a Seeed XIAO ESP32-C3.
+
+  Install these libraries with Sketch > Include Library > Manage Libraries:
+    - Adafruit GFX Library
+    - Adafruit SSD1306
+    - Adafruit MPU6050
+    - DHT sensor library
+  Arduino IDE will offer to install their dependencies too. Click Install All.
 */
 
 #include <Wire.h>
@@ -17,15 +24,12 @@
 // Everything most builders will want to customize is in this one section.
 
 // --- Your board's pins ----------------------------------------------------
-const int I2C_SDA_PIN = 21;      // OLED + MPU6050 SDA
-const int I2C_SCL_PIN = 22;      // OLED + MPU6050 SCL
-const int DHT_PIN = 4;          
-const int BUTTON_ONE_PIN = 14;  
-const int BUTTON_TWO_PIN = 13;   
-const int BUTTON_THREE_PIN = 27; 
-const int BUTTON_FOUR_PIN = 26;  
-const int BUTTON_FIVE_PIN = 25;  
-const int MOTOR_Pin = 16;        
+// These are ESP32-C3 GPIO numbers, with the XIAO pin labels beside them.
+const int I2C_SDA_PIN = 6;       // XIAO D4: OLED + MPU6050 SDA
+const int I2C_SCL_PIN = 5;       // XIAO D5: OLED + MPU6050 SCL
+const int DHT_PIN = 7;           // XIAO D1: DHT11 data
+const int BUTTON_ONE_PIN = 20;    // XIAO D2: opens/confirms the radial menu
+const int BUTTON_TWO_PIN = 10;    // XIAO D3: shows/hides stats
 
 // Set this to false if your submission does not have a DHT11.
 const bool USE_DHT11 = true;
