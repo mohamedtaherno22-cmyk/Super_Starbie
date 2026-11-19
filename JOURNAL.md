@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/cmuxyhz9d01kt01ngwuw1x8lo)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> Super Starbie is a small, interactive AI-powered desktop companion shaped like a star. It can display useful information, monitor temperature and humidity, respond to button presses, and react to movement.
+> Super Starbie combines a Tamagotchi and an AI desktop pet into one project. Super Starbie displays monitored temperature and humidity (DHT-11), responds to button presses, and reacts to movement (MPU6050). It also features a built-in microphone (INMP411 MEMS) and a speaker, enabling TTS & STT for the AI version.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
