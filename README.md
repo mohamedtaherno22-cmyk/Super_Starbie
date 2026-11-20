@@ -1,7 +1,7 @@
 ## Super Starbie ##
 Super Starbie combines a Tamagotchi and an AI desktop pet into one project. Super Starbie displays monitored temperature and humidity (DHT-11), responds to button presses, and reacts to movement (MPU6050). It also features a built-in microphone (INMP411 MEMS) and a speaker, enabling TTS & STT for the AI version.
 
-**I couldn't test the firmware, especially for the AI voice chat, because of the lack of emulators and the complexity of the project. I will edit the firmware and ensure that every last feature of the project works once the parts are here.**
+**Working Features:** Theoretically, all the code is supposed to work. However, I couldn't test the firmware, especially for the AI voice chat, because I was not able to find a good emulator. I will edit the firmware and ensure that every last feature of the project works once the parts are here.
 
 ## Hardware
 
